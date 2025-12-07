@@ -24,3 +24,12 @@ footer {
     color: white;
     font-style: italic;
 }
+
+#foto {
+    text-align: center; 
+}
+
+#foto img {
+    display: block;
+    margin: 0 auto;
+}

@@ -23,14 +23,14 @@ function verificar() {
     res.style.textAlign = 'center';
     res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
 
-    // preparar área da foto (limpa conteúdo anterior)
     var fotoDiv = document.getElementById('foto');
     fotoDiv.innerHTML = '';
 
-    // cria imagem e seta atributos (uso de mesma pasta "imagens")
     var img = document.createElement('img');
     img.setAttribute('id', 'imagem');
     img.style.borderRadius = '50%';
+    img.style.display = 'block';
+    img.style.margin = '0 auto';
     img.width = 250;
     img.height = 250;
 
