@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento: <input type="number" name="iage" id="iage" min="1900" step="1"></p>
+            <p>Sexo:
+                <input type="radio" name="isex" id="masc" value="masc" checked>
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="isex" id="fem" value="fem">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verificar Idade" onclick="verificar()">
+            </p>
+        </div>
+        <div id="foto">
+            <img id="imagem" style="border-radius: 50%" width="250" height="250" src="imagens/homem-bebe.jpg" alt="Pessoa jovem"> 
+        </div>
+        <div id="res">
+            Preencha os dados acima e clique em "Verificar Idade"
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Leonardo Thome</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
