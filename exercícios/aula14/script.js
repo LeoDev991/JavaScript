@@ -18,7 +18,7 @@ function verificar() {
         genero = 'Homem';
     } else {
         genero = 'Mulher';
-    }
+    } 
 
     res.style.textAlign = 'center';
     res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
