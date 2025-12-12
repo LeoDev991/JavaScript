@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <main>
         <section>
-            <div>Testando...</div>
-            <div>Olá</div>
+            <div>
+                <p>Número: <input type="number" name="inum" id="inum">
+                    <input type="button" value="Gerar Tabuada" onclick="contar()">
+                </p>
+
+            </div>
+            <div>
+                <select name="tabuada" id="seltab" size="10">
+                    <option value="dgh">Digite um número acima: </option>
+                </select>
+            </div>
         </section>
     </main>
 
@@ -24,4 +35,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
